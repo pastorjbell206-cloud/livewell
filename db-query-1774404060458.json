@@ -1,9 +1,0 @@
-{
-  "query": "UPDATE posts SET contentType = 'pastoral' WHERE title IN (\n  'Dangerous Calling: Why Pastors Quit',\n  'The Hidden Life of a Pastor',\n  'The First Flock',\n  'Earthen Vessels',\n  'Preach the Word',\n  'The Undershepherd',\n  'The Pruning',\n  'One Body, Many Churches',\n  'Necessary Words',\n  'Sent Into the City',\n  'To the Ends of the Earth',\n  'Faithful in Exile',\n  'Common Grace',\n  'The Unfinished Church',\n  'When God Bless America Replaces Thy Kingdom Come',\n  'The Monster in the Mirror',\n  'What Elders Are For',\n  'Qualified',\n  'Finding and Installing Elders',\n  'When Elders Disagree',\n  'Removing an Elder',\n  'The Solo Pastor and His Board',\n  'Why Pastors Quit',\n  'The Hidden Life',\n  'The Pastor''s Home'\n);",
-  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2R8Hw4VBpxrrDge.root --database KoRED62UaUJB6FH9jFpuEG --execute UPDATE posts SET contentType = 'pastoral' WHERE title IN (\n  'Dangerous Calling: Why Pastors Quit',\n  'The Hidden Life of a Pastor',\n  'The First Flock',\n  'Earthen Vessels',\n  'Preach the Word',\n  'The Undershepherd',\n  'The Pruning',\n  'One Body, Many Churches',\n  'Necessary Words',\n  'Sent Into the City',\n  'To the Ends of the Earth',\n  'Faithful in Exile',\n  'Common Grace',\n  'The Unfinished Church',\n  'When God Bless America Replaces Thy Kingdom Come',\n  'The Monster in the Mirror',\n  'What Elders Are For',\n  'Qualified',\n  'Finding and Installing Elders',\n  'When Elders Disagree',\n  'Removing an Elder',\n  'The Solo Pastor and His Board',\n  'Why Pastors Quit',\n  'The Hidden Life',\n  'The Pastor''s Home'\n);",
-  "rows": [],
-  "messages": [],
-  "stdout": "",
-  "stderr": "",
-  "execution_time_ms": 470
-}

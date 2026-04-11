@@ -1,8 +1,0 @@
-{
-  "query": "SELECT * FROM siteSettings",
-  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2R8Hw4VBpxrrDge.root --database KoRED62UaUJB6FH9jFpuEG --execute SELECT * FROM siteSettings",
-  "returncode": 1,
-  "logs": [
-    "ERROR 1146 (42S02) at line 1: Table 'kored62uaujb6fh9jfpueg.siteSettings' doesn't exist"
-  ]
-}

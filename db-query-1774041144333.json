@@ -1,9 +1,0 @@
-{
-  "query": "\nINSERT INTO books (title, author, description, bookType, published, createdAt, updatedAt) VALUES \n('When God Bless America Replaces Thy Kingdom Come', 'James Bell', 'How Patriotism Became Our Practical Savior. A direct examination of how patriotism has replaced the kingdom of God as the practical savior in American Christianity.', 'authored', 1, NOW(), NOW()),\n('The Monster in the Mirror', 'James Bell', 'Why Every Generation Gets the Bible Wrong, Why Yours Is No Different, and What to Do About It. An exploration of how each generation interprets Scripture through its own cultural lens.', 'authored', 1, NOW(), NOW());\n",
-  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2R8Hw4VBpxrrDge.root --database KoRED62UaUJB6FH9jFpuEG --execute \nINSERT INTO books (title, author, description, bookType, published, createdAt, updatedAt) VALUES \n('When God Bless America Replaces Thy Kingdom Come', 'James Bell', 'How Patriotism Became Our Practical Savior. A direct examination of how patriotism has replaced the kingdom of God as the practical savior in American Christianity.', 'authored', 1, NOW(), NOW()),\n('The Monster in the Mirror', 'James Bell', 'Why Every Generation Gets the Bible Wrong, Why Yours Is No Different, and What to Do About It. An exploration of how each generation interprets Scripture through its own cultural lens.', 'authored', 1, NOW(), NOW());\n",
-  "rows": [],
-  "messages": [],
-  "stdout": "",
-  "stderr": "",
-  "execution_time_ms": 480
-}

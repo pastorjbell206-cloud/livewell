@@ -1,9 +1,0 @@
-{
-  "query": "ALTER TABLE posts ADD COLUMN IF NOT EXISTS topic ENUM('justice', 'leadership', 'spiritual-formation', 'church-health', 'personal-growth', 'pastoral-care') DEFAULT NULL;\nALTER TABLE posts ADD COLUMN IF NOT EXISTS format ENUM('article', 'book-chapter', 'study-guide', 'sermon-series', 'devotional', 'podcast') DEFAULT 'article' NOT NULL;\nALTER TABLE posts ADD COLUMN IF NOT EXISTS audience ENUM('pastors', 'church-leaders', 'small-groups', 'individuals', 'couples') DEFAULT 'individuals' NOT NULL;\nALTER TABLE posts ADD COLUMN IF NOT EXISTS difficulty ENUM('beginner', 'intermediate', 'advanced') DEFAULT 'intermediate' NOT NULL;\nALTER TABLE posts ADD COLUMN IF NOT EXISTS readingTimeMinutes INT DEFAULT 5 NOT NULL;",
-  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2R8Hw4VBpxrrDge.root --database KoRED62UaUJB6FH9jFpuEG --execute ALTER TABLE posts ADD COLUMN IF NOT EXISTS topic ENUM('justice', 'leadership', 'spiritual-formation', 'church-health', 'personal-growth', 'pastoral-care') DEFAULT NULL;\nALTER TABLE posts ADD COLUMN IF NOT EXISTS format ENUM('article', 'book-chapter', 'study-guide', 'sermon-series', 'devotional', 'podcast') DEFAULT 'article' NOT NULL;\nALTER TABLE posts ADD COLUMN IF NOT EXISTS audience ENUM('pastors', 'church-leaders', 'small-groups', 'individuals', 'couples') DEFAULT 'individuals' NOT NULL;\nALTER TABLE posts ADD COLUMN IF NOT EXISTS difficulty ENUM('beginner', 'intermediate', 'advanced') DEFAULT 'intermediate' NOT NULL;\nALTER TABLE posts ADD COLUMN IF NOT EXISTS readingTimeMinutes INT DEFAULT 5 NOT NULL;",
-  "rows": [],
-  "messages": [],
-  "stdout": "",
-  "stderr": "",
-  "execution_time_ms": 4578
-}
