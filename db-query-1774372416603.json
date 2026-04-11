@@ -1,0 +1,460 @@
+{
+  "query": "SELECT id, title, pillar, LENGTH(body) as body_length, readTime, published, createdAt FROM posts ORDER BY body_length ASC LIMIT 50",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2R8Hw4VBpxrrDge.root --database KoRED62UaUJB6FH9jFpuEG --execute SELECT id, title, pillar, LENGTH(body) as body_length, readTime, published, createdAt FROM posts ORDER BY body_length ASC LIMIT 50",
+  "rows": [
+    {
+      "id": "90042",
+      "title": "The Difference Between Same-Sex Attraction and Same-Sex Behavior in the Theological Debate",
+      "pillar": "Prophetic Justice",
+      "body_length": "76",
+      "readTime": "9",
+      "published": "0",
+      "createdAt": "2026-03-22 04:12:58"
+    },
+    {
+      "id": "90064",
+      "title": "What the Parable of Lazarus and the Rich Man Is Saying to a Comfortable Church",
+      "pillar": "Prophetic Justice",
+      "body_length": "79",
+      "readTime": "10",
+      "published": "0",
+      "createdAt": "2026-03-22 04:13:01"
+    },
+    {
+      "id": "90057",
+      "title": "The Difference Between Charity and Justice — and Why the Church Needs Both",
+      "pillar": "Prophetic Justice",
+      "body_length": "79",
+      "readTime": "10",
+      "published": "0",
+      "createdAt": "2026-03-22 04:13:00"
+    },
+    {
+      "id": "90074",
+      "title": "The New Creation Theology and What It Demands of Those Who Are Waiting for It",
+      "pillar": "Prophetic Justice",
+      "body_length": "81",
+      "readTime": "11",
+      "published": "0",
+      "createdAt": "2026-03-22 04:13:02"
+    },
+    {
+      "id": "90061",
+      "title": "When the Congregation's Economic Diversity Requires More Than Mixed Seating",
+      "pillar": "Prophetic Justice",
+      "body_length": "82",
+      "readTime": "11",
+      "published": "0",
+      "createdAt": "2026-03-22 04:13:00"
+    },
+    {
+      "id": "90063",
+      "title": "The Working Poor Who Are in Your Congregation and Cannot Say So",
+      "pillar": "Prophetic Justice",
+      "body_length": "84",
+      "readTime": "10",
+      "published": "0",
+      "createdAt": "2026-03-22 04:13:00"
+    },
+    {
+      "id": "90050",
+      "title": "Women in Church Leadership: Reading the Hard Texts in Full Context",
+      "pillar": "Prophetic Justice",
+      "body_length": "86",
+      "readTime": "10",
+      "published": "0",
+      "createdAt": "2026-03-22 04:12:59"
+    },
+    {
+      "id": "90062",
+      "title": "What a Theology of Enough Looks Like When Applied to the American Middle Class",
+      "pillar": "Prophetic Justice",
+      "body_length": "93",
+      "readTime": "11",
+      "published": "0",
+      "createdAt": "2026-03-22 04:13:00"
+    },
+    {
+      "id": "120012",
+      "title": "When the Fear of Social Justice Has Made the Church Afraid of the Hebrew Prophets",
+      "pillar": "Prophetic Justice",
+      "body_length": "96",
+      "readTime": "11",
+      "published": "0",
+      "createdAt": "2026-03-22 04:29:40"
+    },
+    {
+      "id": "90026",
+      "title": "When Race Divides a Congregation and the Pastor Has to Lead Through It",
+      "pillar": "Prophetic Justice",
+      "body_length": "98",
+      "readTime": "10",
+      "published": "0",
+      "createdAt": "2026-03-22 04:12:56"
+    },
+    {
+      "id": "90053",
+      "title": "When Gender Dysphoria Is in Your Family and the Church Has No Good Language for It",
+      "pillar": "Prophetic Justice",
+      "body_length": "101",
+      "readTime": "11",
+      "published": "0",
+      "createdAt": "2026-03-22 04:12:59"
+    },
+    {
+      "id": "90028",
+      "title": "What the Church Looks Like When It Actually Lives Out Galatians 3:28",
+      "pillar": "Prophetic Justice",
+      "body_length": "104",
+      "readTime": "10",
+      "published": "0",
+      "createdAt": "2026-03-22 04:12:57"
+    },
+    {
+      "id": "90048",
+      "title": "The Person Who Left the Church Because They Felt They Had No Place in It",
+      "pillar": "Prophetic Justice",
+      "body_length": "105",
+      "readTime": "10",
+      "published": "0",
+      "createdAt": "2026-03-22 04:12:59"
+    },
+    {
+      "id": "90045",
+      "title": "The Celibacy Option: What It Actually Asks and What the Church Owes Those Called to It",
+      "pillar": "Prophetic Justice",
+      "body_length": "105",
+      "readTime": "10",
+      "published": "0",
+      "createdAt": "2026-03-22 04:12:59"
+    },
+    {
+      "id": "90066",
+      "title": "What 'Dominion' in Genesis 1 Actually Means — and What It Has Been Used to Justify",
+      "pillar": "Prophetic Justice",
+      "body_length": "106",
+      "readTime": "9",
+      "published": "0",
+      "createdAt": "2026-03-22 04:13:01"
+    },
+    {
+      "id": "120003",
+      "title": "The Survivor Who Was Asked to Reconcile Before Being Believed",
+      "pillar": "Prophetic Justice",
+      "body_length": "106",
+      "readTime": "10",
+      "published": "0",
+      "createdAt": "2026-03-22 04:29:39"
+    },
+    {
+      "id": "90047",
+      "title": "When Love and Truth Are Treated as Opposites in the Sexuality Debate",
+      "pillar": "Prophetic Justice",
+      "body_length": "107",
+      "readTime": "10",
+      "published": "0",
+      "createdAt": "2026-03-22 04:12:59"
+    },
+    {
+      "id": "90041",
+      "title": "What the Church Owes the Gay Christian It Has Too Often Asked to Simply Leave",
+      "pillar": "Prophetic Justice",
+      "body_length": "108",
+      "readTime": "9",
+      "published": "0",
+      "createdAt": "2026-03-22 04:12:58"
+    },
+    {
+      "id": "120057",
+      "title": "The Difference Between What a Text Meant and What It Means — and Why It Matters",
+      "pillar": "Theological Depth",
+      "body_length": "109",
+      "readTime": "11",
+      "published": "0",
+      "createdAt": "2026-03-22 04:58:40"
+    },
+    {
+      "id": "90067",
+      "title": "The Christian Case for Environmental Stewardship That Is Not a Progressive Capitulation",
+      "pillar": "Prophetic Justice",
+      "body_length": "110",
+      "readTime": "10",
+      "published": "0",
+      "createdAt": "2026-03-22 04:13:01"
+    },
+    {
+      "id": "90071",
+      "title": "What the Sabbath Year (Shemitah) Understood About the Land's Rights Before Productivity's",
+      "pillar": "Prophetic Justice",
+      "body_length": "110",
+      "readTime": "10",
+      "published": "0",
+      "createdAt": "2026-03-22 04:13:01"
+    },
+    {
+      "id": "90044",
+      "title": "What a Genuinely Pastoral Response to the Transgender Person Requires",
+      "pillar": "Prophetic Justice",
+      "body_length": "111",
+      "readTime": "10",
+      "published": "0",
+      "createdAt": "2026-03-22 04:12:58"
+    },
+    {
+      "id": "90052",
+      "title": "The Difference Between a Church That Is Welcoming and One That Is Affirming",
+      "pillar": "Prophetic Justice",
+      "body_length": "112",
+      "readTime": "10",
+      "published": "0",
+      "createdAt": "2026-03-22 04:12:59"
+    },
+    {
+      "id": "90069",
+      "title": "What a Resurrection Theology Demands of Our Relationship to the Physical World",
+      "pillar": "Prophetic Justice",
+      "body_length": "112",
+      "readTime": "10",
+      "published": "0",
+      "createdAt": "2026-03-22 04:13:01"
+    },
+    {
+      "id": "90043",
+      "title": "When a Child Comes Out and the Parents Don't Know What Faithfulness Looks Like",
+      "pillar": "Prophetic Justice",
+      "body_length": "113",
+      "readTime": "10",
+      "published": "0",
+      "createdAt": "2026-03-22 04:12:58"
+    },
+    {
+      "id": "90055",
+      "title": "The Young Person Who Grew Up in the Church and Is Now Questioning Everything About Sexuality",
+      "pillar": "Prophetic Justice",
+      "body_length": "113",
+      "readTime": "11",
+      "published": "0",
+      "createdAt": "2026-03-22 04:13:00"
+    },
+    {
+      "id": "120060",
+      "title": "What Historical-Critical Scholarship Offers the Honest Bible Reader",
+      "pillar": "Theological Depth",
+      "body_length": "113",
+      "readTime": "11",
+      "published": "0",
+      "createdAt": "2026-03-22 04:58:40"
+    },
+    {
+      "id": "90035",
+      "title": "What the Early Church's Relationship to the Roman Empire Teaches the Contemporary Church",
+      "pillar": "Prophetic Justice",
+      "body_length": "114",
+      "readTime": "11",
+      "published": "0",
+      "createdAt": "2026-03-22 04:12:57"
+    },
+    {
+      "id": "120053",
+      "title": "Why the Old Testament Belongs in the Christian Bible — and How",
+      "pillar": "Theological Depth",
+      "body_length": "114",
+      "readTime": "11",
+      "published": "0",
+      "createdAt": "2026-03-22 04:58:39"
+    },
+    {
+      "id": "120041",
+      "title": "What the Holiness of God Actually Means — and Why It Is the Most Neglected Attribute",
+      "pillar": "Theological Depth",
+      "body_length": "117",
+      "readTime": "11",
+      "published": "0",
+      "createdAt": "2026-03-22 04:58:38"
+    },
+    {
+      "id": "120048",
+      "title": "What the Names of God Reveal About His Character",
+      "pillar": "Theological Depth",
+      "body_length": "118",
+      "readTime": "11",
+      "published": "0",
+      "createdAt": "2026-03-22 04:58:39"
+    },
+    {
+      "id": "120045",
+      "title": "What It Means That God Is Good When the World Suggests Otherwise",
+      "pillar": "Theological Depth",
+      "body_length": "118",
+      "readTime": "12",
+      "published": "0",
+      "createdAt": "2026-03-22 04:58:38"
+    },
+    {
+      "id": "120058",
+      "title": "What the Canon Is: How the Church Decided Which Books Belonged",
+      "pillar": "Theological Depth",
+      "body_length": "119",
+      "readTime": "11",
+      "published": "0",
+      "createdAt": "2026-03-22 04:58:40"
+    },
+    {
+      "id": "120007",
+      "title": "What a Genuinely Restorative Process for Abuse Requires — and What It Cannot Skip",
+      "pillar": "Prophetic Justice",
+      "body_length": "119",
+      "readTime": "11",
+      "published": "0",
+      "createdAt": "2026-03-22 04:29:39"
+    },
+    {
+      "id": "90031",
+      "title": "When the Church's Political Loyalty Has Compromised Its Gospel Witness",
+      "pillar": "Prophetic Justice",
+      "body_length": "120",
+      "readTime": "9",
+      "published": "0",
+      "createdAt": "2026-03-22 04:12:57"
+    },
+    {
+      "id": "120049",
+      "title": "The Suffering of God: What Impassibility Really Claims and What It Doesn't",
+      "pillar": "Theological Depth",
+      "body_length": "122",
+      "readTime": "11",
+      "published": "0",
+      "createdAt": "2026-03-22 04:58:39"
+    },
+    {
+      "id": "120044",
+      "title": "The God of the Old Testament and the God of the New: Are They the Same God?",
+      "pillar": "Theological Depth",
+      "body_length": "122",
+      "readTime": "11",
+      "published": "0",
+      "createdAt": "2026-03-22 04:58:38"
+    },
+    {
+      "id": "120061",
+      "title": "The Bible and Violence: How to Engage the Texts That Trouble You",
+      "pillar": "Theological Depth",
+      "body_length": "122",
+      "readTime": "12",
+      "published": "0",
+      "createdAt": "2026-03-22 04:58:40"
+    },
+    {
+      "id": "90056",
+      "title": "What the Gospels' Teaching on Money Requires That the Prosperity Gospel Cannot Deliver",
+      "pillar": "Prophetic Justice",
+      "body_length": "122",
+      "readTime": "10",
+      "published": "0",
+      "createdAt": "2026-03-22 04:13:00"
+    },
+    {
+      "id": "120004",
+      "title": "What Institutional Self-Protection Has Cost the Church's Witness on Abuse",
+      "pillar": "Prophetic Justice",
+      "body_length": "123",
+      "readTime": "10",
+      "published": "0",
+      "createdAt": "2026-03-22 04:29:39"
+    },
+    {
+      "id": "120050",
+      "title": "What the Doctrine of the Trinity Has to Do with Your Actual Daily Life",
+      "pillar": "Theological Depth",
+      "body_length": "124",
+      "readTime": "11",
+      "published": "0",
+      "createdAt": "2026-03-22 04:58:39"
+    },
+    {
+      "id": "150043",
+      "title": "What the Parable of the Workers in the Vineyard Says About Grace and Fairness",
+      "pillar": "Theological Depth",
+      "body_length": "124",
+      "readTime": "11",
+      "published": "0",
+      "createdAt": "2026-03-22 05:25:49"
+    },
+    {
+      "id": "120047",
+      "title": "When God Feels Distant and the Theology That Makes Sense of That",
+      "pillar": "Theological Depth",
+      "body_length": "126",
+      "readTime": "11",
+      "published": "0",
+      "createdAt": "2026-03-22 04:58:39"
+    },
+    {
+      "id": "90046",
+      "title": "What Side A and Side B Christians Both Get Right — and What Each Gets Wrong",
+      "pillar": "Prophetic Justice",
+      "body_length": "126",
+      "readTime": "11",
+      "published": "0",
+      "createdAt": "2026-03-22 04:12:59"
+    },
+    {
+      "id": "120046",
+      "title": "The Wrath of God: What It Is, What It Is Not, and Why the Church Needs to Preach It",
+      "pillar": "Theological Depth",
+      "body_length": "126",
+      "readTime": "11",
+      "published": "0",
+      "createdAt": "2026-03-22 04:58:38"
+    },
+    {
+      "id": "120006",
+      "title": "The Church's Record on Sexual Abuse and the Theological Failures Behind the Silence",
+      "pillar": "Prophetic Justice",
+      "body_length": "127",
+      "readTime": "11",
+      "published": "0",
+      "createdAt": "2026-03-22 04:29:39"
+    },
+    {
+      "id": "120054",
+      "title": "How to Read the Bible Without Missing What It Is Actually Saying",
+      "pillar": "Theological Depth",
+      "body_length": "127",
+      "readTime": "11",
+      "published": "0",
+      "createdAt": "2026-03-22 04:58:39"
+    },
+    {
+      "id": "90075",
+      "title": "What Creation Care Looks Like in the Local Church When It Is Rooted in Theology, Not Trend",
+      "pillar": "Prophetic Justice",
+      "body_length": "129",
+      "readTime": "11",
+      "published": "0",
+      "createdAt": "2026-03-22 04:13:02"
+    },
+    {
+      "id": "90038",
+      "title": "What the Church Loses When It Binds the Gospel to Any Political Party",
+      "pillar": "Prophetic Justice",
+      "body_length": "129",
+      "readTime": "11",
+      "published": "0",
+      "createdAt": "2026-03-22 04:12:58"
+    },
+    {
+      "id": "90054",
+      "title": "What the Historic Christian Tradition Has Said About Human Sexuality — and Why It Still Matters",
+      "pillar": "Prophetic Justice",
+      "body_length": "130",
+      "readTime": "11",
+      "published": "0",
+      "createdAt": "2026-03-22 04:13:00"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\ttitle\tpillar\tbody_length\treadTime\tpublished\tcreatedAt\n90042\tThe Difference Between Same-Sex Attraction and Same-Sex Behavior in the Theological Debate\tProphetic Justice\t76\t9\t0\t2026-03-22 04:12:58\n90064\tWhat the Parable of Lazarus and the Rich Man Is Saying to a Comfortable Church\tProphetic Justice\t79\t10\t0\t2026-03-22 04:13:01\n90057\tThe Difference Between Charity and Justice — and Why the Church Needs Both\tProphetic Justice\t79\t10\t0\t2026-03-22 04:13:00\n90074\tThe New Creation Theology and What It Demands of Those Who Are Waiting for It\tProphetic Justice\t81\t11\t0\t2026-03-22 04:13:02\n90061\tWhen the Congregation's Economic Diversity Requires More Than Mixed Seating\tProphetic Justice\t82\t11\t0\t2026-03-22 04:13:00\n90063\tThe Working Poor Who Are in Your Congregation and Cannot Say So\tProphetic Justice\t84\t10\t0\t2026-03-22 04:13:00\n90050\tWomen in Church Leadership: Reading the Hard Texts in Full Context\tProphetic Justice\t86\t10\t0\t2026-03-22 04:12:59\n90062\tWhat a Theology of Enough Looks Like When Applied to the American Middle Class\tProphetic Justice\t93\t11\t0\t2026-03-22 04:13:00\n120012\tWhen the Fear of Social Justice Has Made the Church Afraid of the Hebrew Prophets\tProphetic Justice\t96\t11\t0\t2026-03-22 04:29:40\n90026\tWhen Race Divides a Congregation and the Pastor Has to Lead Through It\tProphetic Justice\t98\t10\t0\t2026-03-22 04:12:56\n90053\tWhen Gender Dysphoria Is in Your Family and the Church Has No Good Language for It\tProphetic Justice\t101\t11\t0\t2026-03-22 04:12:59\n90028\tWhat the Church Looks Like When It Actually Lives Out Galatians 3:28\tProphetic Justice\t104\t10\t0\t2026-03-22 04:12:57\n90048\tThe Person Who Left the Church Because They Felt They Had No Place in It\tProphetic Justice\t105\t10\t0\t2026-03-22 04:12:59\n90045\tThe Celibacy Option: What It Actually Asks and What the Church Owes Those Called to It\tProphetic Justice\t105\t10\t0\t2026-03-22 04:12:59\n90066\tWhat 'Dominion' in Genesis 1 Actually Means — and What It Has Been Used to Justify\tProphetic Justice\t106\t9\t0\t2026-03-22 04:13:01\n120003\tThe Survivor Who Was Asked to Reconcile Before Being Believed\tProphetic Justice\t106\t10\t0\t2026-03-22 04:29:39\n90047\tWhen Love and Truth Are Treated as Opposites in the Sexuality Debate\tProphetic Justice\t107\t10\t0\t2026-03-22 04:12:59\n90041\tWhat the Church Owes the Gay Christian It Has Too Often Asked to Simply Leave\tProphetic Justice\t108\t9\t0\t2026-03-22 04:12:58\n120057\tThe Difference Between What a Text Meant and What It Means — and Why It Matters\tTheological Depth\t109\t11\t0\t2026-03-22 04:58:40\n90067\tThe Christian Case for Environmental Stewardship That Is Not a Progressive Capitulation\tProphetic Justice\t110\t10\t0\t2026-03-22 04:13:01\n90071\tWhat the Sabbath Year (Shemitah) Understood About the Land's Rights Before Productivity's\tProphetic Justice\t110\t10\t0\t2026-03-22 04:13:01\n90044\tWhat a Genuinely Pastoral Response to the Transgender Person Requires\tProphetic Justice\t111\t10\t0\t2026-03-22 04:12:58\n90052\tThe Difference Between a Church That Is Welcoming and One That Is Affirming\tProphetic Justice\t112\t10\t0\t2026-03-22 04:12:59\n90069\tWhat a Resurrection Theology Demands of Our Relationship to the Physical World\tProphetic Justice\t112\t10\t0\t2026-03-22 04:13:01\n90043\tWhen a Child Comes Out and the Parents Don't Know What Faithfulness Looks Like\tProphetic Justice\t113\t10\t0\t2026-03-22 04:12:58\n90055\tThe Young Person Who Grew Up in the Church and Is Now Questioning Everything About Sexuality\tProphetic Justice\t113\t11\t0\t2026-03-22 04:13:00\n120060\tWhat Historical-Critical Scholarship Offers the Honest Bible Reader\tTheological Depth\t113\t11\t0\t2026-03-22 04:58:40\n90035\tWhat the Early Church's Relationship to the Roman Empire Teaches the Contemporary Church\tProphetic Justice\t114\t11\t0\t2026-03-22 04:12:57\n120053\tWhy the Old Testament Belongs in the Christian Bible — and How\tTheological Depth\t114\t11\t0\t2026-03-22 04:58:39\n120041\tWhat the Holiness of God Actually Means — and Why It Is the Most Neglected Attribute\tTheological Depth\t117\t11\t0\t2026-03-22 04:58:38\n120048\tWhat the Names of God Reveal About His Character\tTheological Depth\t118\t11\t0\t2026-03-22 04:58:39\n120045\tWhat It Means That God Is Good When the World Suggests Otherwise\tTheological Depth\t118\t12\t0\t2026-03-22 04:58:38\n120058\tWhat the Canon Is: How the Church Decided Which Books Belonged\tTheological Depth\t119\t11\t0\t2026-03-22 04:58:40\n120007\tWhat a Genuinely Restorative Process for Abuse Requires — and What It Cannot Skip\tProphetic Justice\t119\t11\t0\t2026-03-22 04:29:39\n90031\tWhen the Church's Political Loyalty Has Compromised Its Gospel Witness\tProphetic Justice\t120\t9\t0\t2026-03-22 04:12:57\n120049\tThe Suffering of God: What Impassibility Really Claims and What It Doesn't\tTheological Depth\t122\t11\t0\t2026-03-22 04:58:39\n120044\tThe God of the Old Testament and the God of the New: Are They the Same God?\tTheological Depth\t122\t11\t0\t2026-03-22 04:58:38\n120061\tThe Bible and Violence: How to Engage the Texts That Trouble You\tTheological Depth\t122\t12\t0\t2026-03-22 04:58:40\n90056\tWhat the Gospels' Teaching on Money Requires That the Prosperity Gospel Cannot Deliver\tProphetic Justice\t122\t10\t0\t2026-03-22 04:13:00\n120004\tWhat Institutional Self-Protection Has Cost the Church's Witness on Abuse\tProphetic Justice\t123\t10\t0\t2026-03-22 04:29:39\n120050\tWhat the Doctrine of the Trinity Has to Do with Your Actual Daily Life\tTheological Depth\t124\t11\t0\t2026-03-22 04:58:39\n150043\tWhat the Parable of the Workers in the Vineyard Says About Grace and Fairness\tTheological Depth\t124\t11\t0\t2026-03-22 05:25:49\n120047\tWhen God Feels Distant and the Theology That Makes Sense of That\tTheological Depth\t126\t11\t0\t2026-03-22 04:58:39\n90046\tWhat Side A and Side B Christians Both Get Right — and What Each Gets Wrong\tProphetic Justice\t126\t11\t0\t2026-03-22 04:12:59\n120046\tThe Wrath of God: What It Is, What It Is Not, and Why the Church Needs to Preach It\tTheological Depth\t126\t11\t0\t2026-03-22 04:58:38\n120006\tThe Church's Record on Sexual Abuse and the Theological Failures Behind the Silence\tProphetic Justice\t127\t11\t0\t2026-03-22 04:29:39\n120054\tHow to Read the Bible Without Missing What It Is Actually Saying\tTheological Depth\t127\t11\t0\t2026-03-22 04:58:39\n90075\tWhat Creation Care Looks Like in the Local Church When It Is Rooted in Theology, Not Trend\tProphetic Justice\t129\t11\t0\t2026-03-22 04:13:02\n90038\tWhat the Church Loses When It Binds the Gospel to Any Political Party\tProphetic Justice\t129\t11\t0\t2026-03-22 04:12:58\n90054\tWhat the Historic Christian Tradition Has Said About Human Sexuality — and Why It Still Matters\tProphetic Justice\t130\t11\t0\t2026-03-22 04:13:00\n",
+  "stderr": "",
+  "execution_time_ms": 445
+}

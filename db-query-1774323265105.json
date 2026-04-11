@@ -1,0 +1,40 @@
+{
+  "query": "SELECT id, title, LENGTH(body) as body_length, pillar FROM posts WHERE pillar = 'Leadership Formation' LIMIT 5;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2R8Hw4VBpxrrDge.root --database KoRED62UaUJB6FH9jFpuEG --execute SELECT id, title, LENGTH(body) as body_length, pillar FROM posts WHERE pillar = 'Leadership Formation' LIMIT 5;",
+  "rows": [
+    {
+      "id": "210001",
+      "title": "Why Pastors Quit (And How to Stay)",
+      "body_length": "194",
+      "pillar": "Leadership Formation"
+    },
+    {
+      "id": "210002",
+      "title": "The Hidden Pain of the Successful Pastor",
+      "body_length": "146",
+      "pillar": "Leadership Formation"
+    },
+    {
+      "id": "210003",
+      "title": "Your Church Needs You Healthy More Than It Needs You Busy",
+      "body_length": "180",
+      "pillar": "Leadership Formation"
+    },
+    {
+      "id": "210004",
+      "title": "How I Learned to Stop Performing and Start Pastoring",
+      "body_length": "186",
+      "pillar": "Leadership Formation"
+    },
+    {
+      "id": "210005",
+      "title": "Building a Personal Board of Accountability",
+      "body_length": "181",
+      "pillar": "Leadership Formation"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\ttitle\tbody_length\tpillar\n210001\tWhy Pastors Quit (And How to Stay)\t194\tLeadership Formation\n210002\tThe Hidden Pain of the Successful Pastor\t146\tLeadership Formation\n210003\tYour Church Needs You Healthy More Than It Needs You Busy\t180\tLeadership Formation\n210004\tHow I Learned to Stop Performing and Start Pastoring\t186\tLeadership Formation\n210005\tBuilding a Personal Board of Accountability\t181\tLeadership Formation\n",
+  "stderr": "",
+  "execution_time_ms": 373
+}

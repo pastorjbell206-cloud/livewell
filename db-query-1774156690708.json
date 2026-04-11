@@ -1,0 +1,14 @@
+{
+  "query": "SELECT COUNT(*) as total_articles, COUNT(CASE WHEN pillar='Theological Depth' THEN 1 END) as theological_depth_count FROM posts;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2R8Hw4VBpxrrDge.root --database KoRED62UaUJB6FH9jFpuEG --execute SELECT COUNT(*) as total_articles, COUNT(CASE WHEN pillar='Theological Depth' THEN 1 END) as theological_depth_count FROM posts;",
+  "rows": [
+    {
+      "total_articles": "164",
+      "theological_depth_count": "44"
+    }
+  ],
+  "messages": [],
+  "stdout": "total_articles\ttheological_depth_count\n164\t44\n",
+  "stderr": "",
+  "execution_time_ms": 537
+}

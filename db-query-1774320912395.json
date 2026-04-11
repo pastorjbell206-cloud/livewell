@@ -1,0 +1,9 @@
+{
+  "query": "INSERT INTO resources (title, description, category, fileType, url, createdAt, updatedAt) VALUES (\n  'Trench Work Series — Complete Collection (Volumes 1-15)',\n  'The complete Trench Work series — practical, biblical guidance for pastors navigating real challenges in ministry. Essays on leadership, theology, culture, and the Christian life. Available in PDF format.',\n  'Pastors',\n  'PDF',\n  'https://d2xsxph8kpxj0f.cloudfront.net/310519663366638960/KoRED62UaUJB6FH9jFpuEG/TWCompleteCollectionVol01-15_ecae02c3.pdf',\n  NOW(),\n  NOW()\n);",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2R8Hw4VBpxrrDge.root --database KoRED62UaUJB6FH9jFpuEG --execute INSERT INTO resources (title, description, category, fileType, url, createdAt, updatedAt) VALUES (\n  'Trench Work Series — Complete Collection (Volumes 1-15)',\n  'The complete Trench Work series — practical, biblical guidance for pastors navigating real challenges in ministry. Essays on leadership, theology, culture, and the Christian life. Available in PDF format.',\n  'Pastors',\n  'PDF',\n  'https://d2xsxph8kpxj0f.cloudfront.net/310519663366638960/KoRED62UaUJB6FH9jFpuEG/TWCompleteCollectionVol01-15_ecae02c3.pdf',\n  NOW(),\n  NOW()\n);",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 746
+}

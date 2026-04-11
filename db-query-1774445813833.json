@@ -1,0 +1,9 @@
+{
+  "query": "INSERT INTO site_settings (settingKey, settingValue) VALUES \n('substack_url', 'https://open.substack.com/pub/jamesbell333289'),\n('pastors_connection_url', 'https://pastorsconnectionnetwork.com')\nON DUPLICATE KEY UPDATE settingValue = VALUES(settingValue);",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2R8Hw4VBpxrrDge.root --database KoRED62UaUJB6FH9jFpuEG --execute INSERT INTO site_settings (settingKey, settingValue) VALUES \n('substack_url', 'https://open.substack.com/pub/jamesbell333289'),\n('pastors_connection_url', 'https://pastorsconnectionnetwork.com')\nON DUPLICATE KEY UPDATE settingValue = VALUES(settingValue);",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 390
+}

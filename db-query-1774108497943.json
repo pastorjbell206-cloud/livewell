@@ -1,0 +1,30 @@
+{
+  "query": "SELECT id, title, slug FROM posts LIMIT 10",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2R8Hw4VBpxrrDge.root --database KoRED62UaUJB6FH9jFpuEG --execute SELECT id, title, slug FROM posts LIMIT 10",
+  "rows": [
+    {
+      "id": "1",
+      "title": "When God Bless America Replaces Thy Kingdom Come",
+      "slug": "when-god-bless-america-replaces-thy-kingdom-come"
+    },
+    {
+      "id": "2",
+      "title": "The Monster in the Mirror",
+      "slug": "the-monster-in-the-mirror"
+    },
+    {
+      "id": "30001",
+      "title": "Not Persecuted—Seduced: The Crisis of American Christianity",
+      "slug": "not-persecuted-seduced-crisis-american-christianity"
+    },
+    {
+      "id": "30002",
+      "title": "You Are Not the Exception: Understanding Biblical Interpretation",
+      "slug": "you-are-not-the-exception"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\ttitle\tslug\n1\tWhen God Bless America Replaces Thy Kingdom Come\twhen-god-bless-america-replaces-thy-kingdom-come\n2\tThe Monster in the Mirror\tthe-monster-in-the-mirror\n30001\tNot Persecuted—Seduced: The Crisis of American Christianity\tnot-persecuted-seduced-crisis-american-christianity\n30002\tYou Are Not the Exception: Understanding Biblical Interpretation\tyou-are-not-the-exception\n",
+  "stderr": "",
+  "execution_time_ms": 412
+}

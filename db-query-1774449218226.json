@@ -1,0 +1,110 @@
+{
+  "query": "SELECT id, title, LENGTH(body) - LENGTH(REPLACE(body, ' ', '')) + 1 as word_count FROM posts WHERE published = true ORDER BY word_count ASC LIMIT 20;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 2R8Hw4VBpxrrDge.root --database KoRED62UaUJB6FH9jFpuEG --execute SELECT id, title, LENGTH(body) - LENGTH(REPLACE(body, ' ', '')) + 1 as word_count FROM posts WHERE published = true ORDER BY word_count ASC LIMIT 20;",
+  "rows": [
+    {
+      "id": "300135",
+      "title": "Environmental Racism",
+      "word_count": "2"
+    },
+    {
+      "id": "300175",
+      "title": "Gender-Based Violence",
+      "word_count": "2"
+    },
+    {
+      "id": "300140",
+      "title": "Education Inequality",
+      "word_count": "2"
+    },
+    {
+      "id": "300165",
+      "title": "Climate Refugees",
+      "word_count": "2"
+    },
+    {
+      "id": "300170",
+      "title": "The School-to-Prison Pipeline",
+      "word_count": "3"
+    },
+    {
+      "id": "300035",
+      "title": "The Prophetic Pastor",
+      "word_count": "3"
+    },
+    {
+      "id": "300177",
+      "title": "The Prophetic Imagination",
+      "word_count": "3"
+    },
+    {
+      "id": "300141",
+      "title": "Gentrification and Displacement",
+      "word_count": "3"
+    },
+    {
+      "id": "300169",
+      "title": "Literacy as Justice",
+      "word_count": "3"
+    },
+    {
+      "id": "300007",
+      "title": "Mishpat and Tsedaqah",
+      "word_count": "3"
+    },
+    {
+      "id": "300147",
+      "title": "The Digital Divide",
+      "word_count": "3"
+    },
+    {
+      "id": "300161",
+      "title": "The Theology of Borders",
+      "word_count": "4"
+    },
+    {
+      "id": "300015",
+      "title": "Why Poverty Is Political",
+      "word_count": "4"
+    },
+    {
+      "id": "300130",
+      "title": "The Theology of Reparations",
+      "word_count": "4"
+    },
+    {
+      "id": "300012",
+      "title": "What the Jubilee Means",
+      "word_count": "4"
+    },
+    {
+      "id": "300134",
+      "title": "The Doctrine of Discovery",
+      "word_count": "4"
+    },
+    {
+      "id": "300149",
+      "title": "The Theology of Protest",
+      "word_count": "4"
+    },
+    {
+      "id": "300148",
+      "title": "Moral Injury and Veterans",
+      "word_count": "4"
+    },
+    {
+      "id": "300030",
+      "title": "Hospitality Is Not Optional",
+      "word_count": "4"
+    },
+    {
+      "id": "300152",
+      "title": "What Isaiah 58 Demands",
+      "word_count": "4"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\ttitle\tword_count\n300135\tEnvironmental Racism\t2\n300175\tGender-Based Violence\t2\n300140\tEducation Inequality\t2\n300165\tClimate Refugees\t2\n300170\tThe School-to-Prison Pipeline\t3\n300035\tThe Prophetic Pastor\t3\n300177\tThe Prophetic Imagination\t3\n300141\tGentrification and Displacement\t3\n300169\tLiteracy as Justice\t3\n300007\tMishpat and Tsedaqah\t3\n300147\tThe Digital Divide\t3\n300161\tThe Theology of Borders\t4\n300015\tWhy Poverty Is Political\t4\n300130\tThe Theology of Reparations\t4\n300012\tWhat the Jubilee Means\t4\n300134\tThe Doctrine of Discovery\t4\n300149\tThe Theology of Protest\t4\n300148\tMoral Injury and Veterans\t4\n300030\tHospitality Is Not Optional\t4\n300152\tWhat Isaiah 58 Demands\t4\n",
+  "stderr": "",
+  "execution_time_ms": 488
+}
