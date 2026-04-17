@@ -6,6 +6,7 @@ import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import { ToastProvider } from "./contexts/ToastContext";
 import { ToastContainer } from "./components/ToastContainer";
+import ProtectedRoute from "./components/ProtectedRoute";
 
 import Home from "./pages/Home";
 import Writing from "./pages/Writing";
@@ -73,22 +74,21 @@ function Router() {
       <Route path="/resources-for-pastors" component={ResourcesForPastors} />
       
       {/* Admin Routes */}
-      <Route path="/admin" component={AdminDashboard} />
-      <Route path="/admin/posts" component={AdminPosts} />
-      <Route path="/admin/posts/new" component={AdminPostEditor} />
-      <Route path="/admin/posts/:id/edit" component={AdminPostEditor} />
-      <Route path="/admin/resources" component={AdminResources} />
-      <Route path="/admin/resources/new" component={AdminResourceEditor} />
-      <Route path="/admin/resources/:id/edit" component={AdminResourceEditor} />
-      <Route path="/admin/books" component={AdminBooks} />
-      <Route path="/admin/books/new" component={AdminBookEditor} />
-      <Route path="/admin/books/:id/edit" component={AdminBookEditor} />
-      <Route path="/admin/about" component={AdminAbout} />
-      <Route path="/admin/settings" component={AdminSettings} />
-      <Route path="/admin/sync" component={AdminContentSync} />
-      <Route path="/admin/moderation" component={ModerationAdmin} />
-      <Route path="/admin/notifications" component={NotificationsAdmin} />
-      
+          <Route path="/admin" component={() => <ProtectedRoute component={AdminDashboard} requireAdmin />} />
+                <Route path="/admin/posts" component={() => <ProtectedRoute component={AdminPosts} requireAdmin />} />
+                <Route path="/admin/posts/new" component={() => <ProtectedRoute component={AdminPostEditor} requireAdmin />} />
+                <Route path="/admin/posts/:id/edit" component={() => <ProtectedRoute component={AdminPostEditor} requireAdmin />} />
+                <Route path="/admin/resources" component={() => <ProtectedRoute component={AdminResources} requireAdmin />} />
+                <Route path="/admin/resources/new" component={() => <ProtectedRoute component={AdminResourceEditor} requireAdmin />} />
+                <Route path="/admin/resources/:id/edit" component={() => <ProtectedRoute component={AdminResourceEditor} requireAdmin />} />
+                <Route path="/admin/books" component={() => <ProtectedRoute component={AdminBooks} requireAdmin />} />
+                <Route path="/admin/books/new" component={() => <ProtectedRoute component={AdminBookEditor} requireAdmin />} />
+                <Route path="/admin/books/:id/edit" component={() => <ProtectedRoute component={AdminBookEditor} requireAdmin />} />
+                <Route path="/admin/about" component={() => <ProtectedRoute component={AdminAbout} requireAdmin />} />
+                <Route path="/admin/settings" component={() => <ProtectedRoute component={AdminSettings} requireAdmin />} />
+                <Route path="/admin/sync" component={() => <ProtectedRoute component={AdminContentSync} requireAdmin />} />
+                <Route path="/admin/moderation" component={() => <ProtectedRoute component={ModerationAdmin} requireAdmin />} />
+                <Route path="/admin/notifications" component={() => <ProtectedRoute component={NotificationsAdmin} requireAdmin />} />
       <Route path="/404" component={NotFound} />
       <Route component={NotFound} />
     </Switch>
